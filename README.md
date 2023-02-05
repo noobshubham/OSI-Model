@@ -23,3 +23,6 @@ to demonstrate how to make it easier for systems to communicate without having t
 ## Functionalities
 - A message sent from device A to B has to pass through all 7 layers at A from top to down then all layers at B from bottom to top.
 - As the message travel from device A to device B, it may pass through many intermediate nodes such as routers. These intermediate nodes usually involves only the first three layers of OSI model.
+- Within a single machine, each layer calls upon the services of the layer just below it. Layer 3, for example, uses the services provided by layer 2 and provides services for layer 4. Betweeen machines, layer x on one machine communicates with layer x on another machine.
+- The communication is governed by series of rules and conventions called protocols.
+- 
