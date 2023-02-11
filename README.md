@@ -25,4 +25,8 @@ to demonstrate how to make it easier for systems to communicate without having t
 - As the message travel from device A to device B, it may pass through many intermediate nodes such as routers. These intermediate nodes usually involves only the first three layers of OSI model.
 - Within a single machine, each layer calls upon the services of the layer just below it. Layer 3, for example, uses the services provided by layer 2 and provides services for layer 4. Betweeen machines, layer x on one machine communicates with layer x on another machine.
 - The communication is governed by series of rules and conventions called protocols.
-- 
+
+Transport - data divided into segments of data unit and source port and destination post number added process-process delivery.
+Network -  here data is divided into packets and source ip and destinatin ip gets added to the message, source-destination delivery.
+Data-Link Layer - here packets are divided into framges, source mac address and destinatin mac address are added to the message, this is hop-hop delivery.
+Physical Layer - it divides the frames into bits and transfer over transimision medium, coaxial, fibre etc.
